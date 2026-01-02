@@ -1,0 +1,58 @@
+@font-face {
+  font-family: timer;
+  src: url(fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+  margin: 0;
+  /* align-items: center; */
+}
+.score-board {
+  background: linear-gradient(blue,pink);
+  height: 385px;
+  width: 575px;
+  margin: 10px auto;
+
+  display: flex;
+  justify-content: space-evenly;
+  text-shadow: 0px 0px 5px black;
+}
+
+.home,
+.guest {
+  margin: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #eeeeee;
+}
+
+.home-score-disp,
+.guest-score-disp {
+  background-image: url("https://th.bing.com/th/id/OIP.6i1fw3zD5vFjl8hBjsYgegHaE1?w=254&h=180&c=7&r=0&o=7&pid=1.7&rm=3");
+  height: 120px;
+  width: 155px;
+}
+
+#display-content-home,
+#display-content-guest {
+  font-family: timer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.btn-style {
+  margin: 5px;
+  background: transparent;
+  border: 2px solid #9aabd8;
+  font-family: timer;
+  padding: 5px;
+  color: #eeeeee;
+}
+.btn-style:hover{
+  transform: scale(1.2);
+  border: 2px dotted #9aabd8;;
+}
